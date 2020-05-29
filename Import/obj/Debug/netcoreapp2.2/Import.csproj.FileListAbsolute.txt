@@ -1,0 +1,8 @@
+D:\RiderProjects\CourseWorkOperationResearch\Import\bin\Debug\netcoreapp2.2\Import.deps.json
+D:\RiderProjects\CourseWorkOperationResearch\Import\bin\Debug\netcoreapp2.2\Import.dll
+D:\RiderProjects\CourseWorkOperationResearch\Import\bin\Debug\netcoreapp2.2\Import.pdb
+D:\RiderProjects\CourseWorkOperationResearch\Import\obj\Debug\netcoreapp2.2\Import.csprojAssemblyReference.cache
+D:\RiderProjects\CourseWorkOperationResearch\Import\obj\Debug\netcoreapp2.2\Import.AssemblyInfoInputs.cache
+D:\RiderProjects\CourseWorkOperationResearch\Import\obj\Debug\netcoreapp2.2\Import.AssemblyInfo.cs
+D:\RiderProjects\CourseWorkOperationResearch\Import\obj\Debug\netcoreapp2.2\Import.dll
+D:\RiderProjects\CourseWorkOperationResearch\Import\obj\Debug\netcoreapp2.2\Import.pdb

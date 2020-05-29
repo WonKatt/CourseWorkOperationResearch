@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\WonKat\.Rider2019.1\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\WonKat\.Rider2019.1\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\WonKat\.Rider2019.1\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\WonKat\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\WonKat\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_CourseWorkOperationResearch.1937594300.00" t="ExcludeRecursive" />
+    <e p="D:\RiderProjects\CourseWorkOperationResearch" t="IncludeFlat">
+      <e p="AntColonyOptimizationAlgorithm" t="IncludeRecursive">
+        <e p="AntColonyOptimizationAlgorithm.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="AntColonyOptimizationAlgorithm.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="CourseWorkOperationResearch" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CourseWorkOperationResearch.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="CourseWorkOperationResearch.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="CourseWorkOperationResearch.sln" t="IncludeFlat" />
+      <e p="GreedySearch" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="GreedySearch.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="GreedySearch.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="HillClimbing" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="HillClimbing.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="HillClimbing.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Import" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="ImportStructureDto.cs" t="Include" />
+          <e p="State.cs" t="Include" />
+        </e>
+        <e p="Import.cs" t="Include" />
+        <e p="Import.csproj" t="IncludeRecursive" />
+        <e p="import.json" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Import.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
