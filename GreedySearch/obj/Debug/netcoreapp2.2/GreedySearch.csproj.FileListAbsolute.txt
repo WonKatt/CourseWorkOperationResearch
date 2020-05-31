@@ -1,0 +1,12 @@
+D:\RiderProjects\CourseWorkOperationResearch\GreedySearch\bin\Debug\netcoreapp2.2\GreedySearch.deps.json
+D:\RiderProjects\CourseWorkOperationResearch\GreedySearch\bin\Debug\netcoreapp2.2\GreedySearch.dll
+D:\RiderProjects\CourseWorkOperationResearch\GreedySearch\bin\Debug\netcoreapp2.2\GreedySearch.pdb
+D:\RiderProjects\CourseWorkOperationResearch\GreedySearch\bin\Debug\netcoreapp2.2\Import.dll
+D:\RiderProjects\CourseWorkOperationResearch\GreedySearch\bin\Debug\netcoreapp2.2\Import.pdb
+D:\RiderProjects\CourseWorkOperationResearch\GreedySearch\obj\Debug\netcoreapp2.2\GreedySearch.csprojAssemblyReference.cache
+D:\RiderProjects\CourseWorkOperationResearch\GreedySearch\obj\Debug\netcoreapp2.2\GreedySearch.csproj.CoreCompileInputs.cache
+D:\RiderProjects\CourseWorkOperationResearch\GreedySearch\obj\Debug\netcoreapp2.2\GreedySearch.AssemblyInfoInputs.cache
+D:\RiderProjects\CourseWorkOperationResearch\GreedySearch\obj\Debug\netcoreapp2.2\GreedySearch.AssemblyInfo.cs
+D:\RiderProjects\CourseWorkOperationResearch\GreedySearch\obj\Debug\netcoreapp2.2\GreedySearch.csproj.CopyComplete
+D:\RiderProjects\CourseWorkOperationResearch\GreedySearch\obj\Debug\netcoreapp2.2\GreedySearch.dll
+D:\RiderProjects\CourseWorkOperationResearch\GreedySearch\obj\Debug\netcoreapp2.2\GreedySearch.pdb

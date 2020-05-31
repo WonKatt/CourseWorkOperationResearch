@@ -1,0 +1,12 @@
+D:\RiderProjects\CourseWorkOperationResearch\HillClimbing\bin\Debug\netcoreapp2.2\HillClimbing.deps.json
+D:\RiderProjects\CourseWorkOperationResearch\HillClimbing\bin\Debug\netcoreapp2.2\HillClimbing.dll
+D:\RiderProjects\CourseWorkOperationResearch\HillClimbing\bin\Debug\netcoreapp2.2\HillClimbing.pdb
+D:\RiderProjects\CourseWorkOperationResearch\HillClimbing\bin\Debug\netcoreapp2.2\Import.dll
+D:\RiderProjects\CourseWorkOperationResearch\HillClimbing\bin\Debug\netcoreapp2.2\Import.pdb
+D:\RiderProjects\CourseWorkOperationResearch\HillClimbing\obj\Debug\netcoreapp2.2\HillClimbing.csprojAssemblyReference.cache
+D:\RiderProjects\CourseWorkOperationResearch\HillClimbing\obj\Debug\netcoreapp2.2\HillClimbing.csproj.CoreCompileInputs.cache
+D:\RiderProjects\CourseWorkOperationResearch\HillClimbing\obj\Debug\netcoreapp2.2\HillClimbing.AssemblyInfoInputs.cache
+D:\RiderProjects\CourseWorkOperationResearch\HillClimbing\obj\Debug\netcoreapp2.2\HillClimbing.AssemblyInfo.cs
+D:\RiderProjects\CourseWorkOperationResearch\HillClimbing\obj\Debug\netcoreapp2.2\HillClimbing.csproj.CopyComplete
+D:\RiderProjects\CourseWorkOperationResearch\HillClimbing\obj\Debug\netcoreapp2.2\HillClimbing.dll
+D:\RiderProjects\CourseWorkOperationResearch\HillClimbing\obj\Debug\netcoreapp2.2\HillClimbing.pdb

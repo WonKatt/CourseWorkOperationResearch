@@ -1,13 +1,16 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": ""
+    "signature": "7b1b492c454fbc4cecb9eaecd16b5dbb782e3155"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "CourseWorkOperationResearch/1.0.0": {
         "dependencies": {
+          "AntColonyOptimizationAlgorithm": "1.0.0",
+          "GreedySearch": "1.0.0",
+          "HillClimbing": "1.0.0",
           "Import": "1.0.0"
         },
         "runtime": {
@@ -320,6 +323,30 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
+      "AntColonyOptimizationAlgorithm/1.0.0": {
+        "dependencies": {
+          "Import": "1.0.0"
+        },
+        "runtime": {
+          "AntColonyOptimizationAlgorithm.dll": {}
+        }
+      },
+      "GreedySearch/1.0.0": {
+        "dependencies": {
+          "Import": "1.0.0"
+        },
+        "runtime": {
+          "GreedySearch.dll": {}
+        }
+      },
+      "HillClimbing/1.0.0": {
+        "dependencies": {
+          "Import": "1.0.0"
+        },
+        "runtime": {
+          "HillClimbing.dll": {}
+        }
+      },
       "Import/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "9.0.1"
@@ -573,6 +600,21 @@
       "sha512": "sha512-Mk2mKmPi0nWaoiYeotq1dgeNK1fqWh61+EK+w4Wu8SWuTYLzpUnschb59bJtGywaPq7SmTuPf44wrXRwbIrukg==",
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
+    },
+    "AntColonyOptimizationAlgorithm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GreedySearch/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HillClimbing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Import/1.0.0": {
       "type": "project",

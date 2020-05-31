@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Import.Helpers
 {
-    class ImportStructureDto
+    public class ImportStructureDto
     {
         public int PathLength { get; set; }
         public IReadOnlyCollection<int> PeaksWeight { get; set; }

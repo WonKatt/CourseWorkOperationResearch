@@ -14,6 +14,12 @@ namespace Import.Helpers
         public int Index { get; }
         public int Cost { get; }
         public List<Edge> Edges { get; set; } = new List<Edge>();
+        
+        //improve debug
+        public override string ToString()
+        {
+            return Index.ToString();
+        }
     }
     public class Edge
     {
@@ -22,5 +28,11 @@ namespace Import.Helpers
             State = state;
         }
         public State State { get; }
+        public double Tau { get; set; } = 0.09;
+        //improve debug
+        public override string ToString()
+        {
+            return State.Index.ToString();
+        }
     }
 }
