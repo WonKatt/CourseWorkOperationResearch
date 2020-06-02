@@ -28,7 +28,8 @@ namespace Import.Helpers
             State = state;
         }
         public State State { get; }
-        public double Tau { get; set; } = 0.09;
+        public double Tau { get; set; } = 0.1;
+        public double Weight { get; set;}
         //improve debug
         public override string ToString()
         {

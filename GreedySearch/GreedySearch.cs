@@ -14,7 +14,7 @@ namespace GreedySearch
 
             var currState = initState;
 
-            while (path.Count <= depth)
+            while (path.Count < depth)
             {
                 currState = GetNextState(currState,closed,path);
 

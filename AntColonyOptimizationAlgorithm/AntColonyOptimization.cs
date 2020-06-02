@@ -14,7 +14,7 @@ namespace AntColonyOptimizationAlgorithm
             maxWeight = costsOrdered.First();
             double perfectPathLength = costsOrdered.Take(depth).Sum();
             //Коэффициент испарения феромона
-            var rho = 0.09;
+            var rho = 0.5;
 
             int countOfAnt = 7;
             int generationCount = 500;
@@ -56,8 +56,8 @@ namespace AntColonyOptimizationAlgorithm
 
                         path.Add(nextWay);
                         marked.Add(nextWay);
-                        wayLength += nextWay.Cost;
                     }
+                    wayLength = path.Sum(x => x.Cost);
                     currGenerationResults[ant] = (path, wayLength);
                 }
 
@@ -76,6 +76,9 @@ namespace AntColonyOptimizationAlgorithm
         {
             var oneMinusRho = 1 - rho;
             var pathIndexes = path.Select(x => x.Index).ToList();
+            var minPheromone = 0.0000001;
+            var maxPheromone = 10;
+
             foreach (var state in graph)
             {
                 int toIndex = -1;
@@ -97,6 +100,9 @@ namespace AntColonyOptimizationAlgorithm
 
                     if (edge.State.Index == toIndex || edge.State.Index == inIndex)
                         edge.Tau += deltaTau;
+                    if (edge.Tau > maxPheromone) edge.Tau = maxPheromone;
+                    if (edge.Tau < minPheromone) edge.Tau = minPheromone;
+
                 }
             }
         }
