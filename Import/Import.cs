@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -10,7 +10,9 @@ namespace Import
     public class Import
     {
         public List<State> Graph { get; private set; }
-        public State GenerateGraph(int peakCount, int maxPath = 0, bool saveAsFile = true)
+
+
+        public State GenerateOrpGraph(int peakCount, int maxPath = 1, bool saveAsFile = true)
         {
             var c = new byte[peakCount, peakCount];
             var random = new Random();
@@ -18,10 +20,11 @@ namespace Import
 
             for (int i = 0; i < peakCount; i++)
             {
+                if(i > 0)
                 peaksWeight[i] = random.Next(0, 100);
                 for (int j = 0; j < i; j++)
                 {
-                    var isEdged = random.Next(1, 3) % 2 == 1;
+                    var isEdged = random.Next(1, 2) % 2 == 1;
                     if (!isEdged) continue;
 
                     c[i, j] = 1;
@@ -55,6 +58,53 @@ namespace Import
 
             return GetFullGraphFormFile(import);
         }
+        public State GenerateGraph(int peakCount, int maxPath = 0, bool saveAsFile = true)
+        {
+            var c = new int[peakCount, peakCount];
+            var random = new Random();
+            var peaksWeight = new int[peakCount];
+
+            for (int i = 0; i < peakCount; i++)
+            {
+                for (int j = 0; j < peakCount; j++)
+                {
+                    if (i == j) continue;
+                
+                    var isEdged = random.Next(1, 13) % 13 == 1;
+                    if (!isEdged) continue;
+
+                    c[i, j] = random.Next(1,100);
+                }
+            }
+
+            if (maxPath == 0) maxPath = (peakCount * 2) / 3;
+
+            var adjencyMatrixAsStringArray = new List<string>(peakCount);
+
+            for (var i = 0; i < peakCount; i++)
+            {
+                var row = new int[peakCount];
+                for (int j = 0; j < peakCount; j++)
+                    row[j] = c[i, j];
+                adjencyMatrixAsStringArray.Add(string.Join(',', row));
+            }
+            var import = new ImportStructureDto()
+            {
+                AdjacencyMatrix = adjencyMatrixAsStringArray,
+                PathLength = maxPath,
+                PeaksWeight = peaksWeight
+            };
+
+            if (saveAsFile)
+            {
+                var json = JsonConvert.SerializeObject(import, Formatting.Indented);
+                File.WriteAllText($@"../../../../Import/Jsons/{Guid.NewGuid()}.json", json);
+            }
+
+            return GetFullGraphFormFile(import);
+        }
+
+
         public State GetFullGraphFormFile(ImportStructureDto import)
         {
 
@@ -81,8 +131,9 @@ namespace Import
             }
 
             Graph = states;
-            return states.First();
+            return states.First();  
         }
+
         public static ImportStructureDto ReadImport(string path)
         {
             using (var fileReader = new StreamReader(path))
