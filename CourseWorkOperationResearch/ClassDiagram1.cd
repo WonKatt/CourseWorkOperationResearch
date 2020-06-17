@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="CourseWorkOperationResearch.Expirement">
+    <Position X="1" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Expirement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseWorkOperationResearch.IndividualProblem">
+    <Position X="7" Y="1" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAABQAAAAAAAEIAAAAAAABAAAAAAgAAAAACA=</HashCode>
+      <FileName>IndividualProblem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CourseWorkOperationResearch.Program">
+    <Position X="4" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HillClimbing.HillClimbing">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="GreedySearch.GreedySearch">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AntColonyOptimizationAlgorithm.AntColonyOptimization">
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Import.Import">
+    <Position X="6.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Import.Helpers.ImportStructureDto">
+    <Position X="8.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Import.Helpers.State">
+    <Position X="1" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Import.Helpers.Edge">
+    <Position X="3.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,39 +1,48 @@
 ﻿using Import.Helpers;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 namespace HillClimbing
 {
     public class HillClimbing
     {
-        private Random random = new Random(); 
+        private Random random = new Random();
+        public TimeSpan AlgorithmExecutionTime { get; set; }
 
         public List<List<State>> FindSolution(State startCity, int pathLength)
         {
+            Stopwatch stopwatch = new Stopwatch();
             var path = new List<List<State>>();
-            for (int i = 0; i < 1000; i++)
+            stopwatch.Start();
+            for (int i = 0; i < 100; i++)
             {
-                var localPath = new List<State>();
+                var localPath = new List<State>() { startCity };
                 var closedCities = new List<State>();
                 var currentCity = startCity;
 
-                localPath.Add(currentCity);
 
                 while (localPath.Count <= pathLength)
                 {
-                    currentCity = GetNextCity(currentCity, closedCities, localPath);
-
                     if (currentCity == null)
                     {
                         currentCity = startCity;
                         closedCities.Clear();
                         localPath.Clear();
+                        localPath.Add(currentCity);
                     }
+
+                    currentCity = GetNextCity(currentCity, closedCities, localPath);
+
                     localPath.Add(currentCity);
                 }
+
                 path.Add(localPath);
             }
+
+            stopwatch.Stop();
+            AlgorithmExecutionTime = stopwatch.Elapsed;
             return path;
         }
 
@@ -84,8 +93,9 @@ namespace HillClimbing
                 path.Remove(path.Last());
                 backTracked = path.Last();
             }
-
             return GetNextCity(backTracked, closed, path);
         }
+
     }
 }
+

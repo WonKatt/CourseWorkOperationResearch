@@ -1,15 +1,20 @@
 ﻿using Import.Helpers;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 namespace GreedySearch
 {
     public class GreedySearch
     {
+        public TimeSpan AlgorithmExecutionTime { get; set; }
+
         public List<State> Run(State initState, int depth)
         {
-            var path = new List<State>() { initState};
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+            var path = new List<State>() { initState };
             var closed = new List<State>();
 
             var currState = initState;
@@ -21,7 +26,8 @@ namespace GreedySearch
                 if (currState == null) return null;
                 path.Add(currState);
             }
-
+            stopwatch.Stop();
+            AlgorithmExecutionTime = stopwatch.Elapsed;
             return path;
         }
 
